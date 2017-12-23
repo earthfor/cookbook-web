@@ -8,9 +8,23 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "CookBook for Web",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earthfor/cookbook-web.git"
+  },
+  "keywords": [ "cookbook" ],
+  "author": "earthfor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earthfor/cookbook-web/issues"
+  },
+  "homepage": "https://github.com/earthfor/cookbook-web#readme"
 }
